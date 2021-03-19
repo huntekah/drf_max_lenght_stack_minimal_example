@@ -8,7 +8,7 @@ from django.contrib.auth.models import (
 from rest_framework import fields
 
 
-class CharField(fields.CharField):
+class CharField(models.CharField):
 
     default_error_messages = {"max_length": "I am happy to see you {max_length}."}
 
